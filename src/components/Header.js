@@ -2,7 +2,6 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-
 const Header = () => {
   const productData = useSelector((state) => state.bazar.productData);
   const userInfo = useSelector((state) => state.bazar.userInfo);
@@ -13,7 +12,7 @@ const Header = () => {
         <Link to="/">
           <div>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkt_j0Mrq8ldc3rYbTQpifaFeAPFHYyzWfAepfoaBNaEXuyZWU4Ck24kqQU1sJaPcvojQ&usqp=CAU"
+              src="https://penji.co/wp-content/uploads/2019/06/ebay-ecommerce-logo.jpg"
               className="w-28"
               alt="#"
             />
