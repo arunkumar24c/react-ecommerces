@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex flex-col gap-7">
           <img
             className="w-32"
-            src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/brazzers-logo-zainal-mahardika.jpg"
+            src="https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png"
             alt="#"
           />
           <p className="text-white text-sm tracking-wide">© arunkumar.com</p>
@@ -104,7 +104,7 @@ const Footer = () => {
             placeholder="Email id"
             className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
           />
-          
+
           <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
             let's talk
           </button>
