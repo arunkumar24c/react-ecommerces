@@ -80,10 +80,10 @@ const Login = () => {
           onClick={handleSignOut}
           className="bg-black text-white text-base py-3 px-8 tracking-wide rounded-md hover:bg-gray-800 duration-300"
         >
-          Sign Out
+          Sign In
         </button>
       </div>
-      
+
       <ToastContainer
         position="top-left"
         autoClose={2000}
