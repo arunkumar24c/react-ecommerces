@@ -42,7 +42,7 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-semibold text-white mb-4">Locate Us</h2>
           <div className="text-base flex flex-col gap-2">
-            <p>MDA, Ruwi, Muscat-Oman</p>
+            <p>MDA, Rubik, Muscat-Oman</p>
             <p>Mobile Number: 98949800367</p>
             <p>Phone Number:0432-244467</p>
             <p>E-Mail: arunkumar24c@gmail.com</p>

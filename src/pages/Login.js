@@ -80,7 +80,7 @@ const Login = () => {
           onClick={handleSignOut}
           className="bg-black text-white text-base py-3 px-8 tracking-wide rounded-md hover:bg-gray-800 duration-300"
         >
-          Sign In
+          Sign Out
         </button>
       </div>
 
