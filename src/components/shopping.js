@@ -11,7 +11,7 @@ import {
 import { toast, ToastContainer } from "react-toastify";
 import { Link } from "react-router-dom";
 
-const CartItem = () => {
+const Shopping = () => {
   const dispatch = useDispatch();
   const productData = useSelector((state) => state.bazar.productData);
   return (
@@ -95,12 +95,12 @@ const CartItem = () => {
       >
         Reset Cart
       </button>
-      <Link to="/">
+      <Link to="/cart">
         <button className="mt-8 ml-7 flex items-center gap-1 text-gray-400 hover:text-black duration-300">
           <span>
             <BsArrowLeftShort />
           </span>{" "}
-          Go shopping
+          Go Cartpage
         </button>
       </Link>
       <ToastContainer
@@ -119,4 +119,4 @@ const CartItem = () => {
   );
 };
 
-export default CartItem;
+export default Shopping;

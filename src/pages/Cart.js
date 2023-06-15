@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 import CartItem from "../components/CartItem";
 import StripeCheckout from "react-stripe-checkout";
+import { resetCart } from "../redux/bazarSlice";
 
 const Cart = () => {
+  const dispatch = useDispatch();
   const productData = useSelector((state) => state.bazar.productData);
+  console.log(productData);
   const userInfo = useSelector((state) => state.bazar.userInfo);
   const [totalAmt, setTotalAmt] = useState("");
   const [payNow, setPayNow] = useState(false);
@@ -27,13 +30,13 @@ const Cart = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <img
         className="w-full h-60 object-cover"
         src="https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compres"
         alt="cartImg"
       />
-      <div className="max-w-screen-xl mx-auto py-20 flex">
+      <div className="flex flex-col mx-auto py-20 ">
         <CartItem />
         <div className="w-1/3 bg-[#fafafa] py-6 px-4">
           <div className="flex flex-col gap-6 border-b-[1px] border-b-gray-400 pb-6">
